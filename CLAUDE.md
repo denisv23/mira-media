@@ -2,7 +2,7 @@
 
 This repo holds the renderer and the published media for **@mira.recepsioniste** (Instagram, Business account
 linked to the Facebook Page "Mira • Recepsionistja AI"). Files here are public: they are served to Instagram
-through raw.githubusercontent.com URLs. Never put anything private in this repo.
+through GitHub Pages URLs (denisv23.github.io/mira-media/...). Never put anything private in this repo.
 
 ## What Mira is (only claim these facts)
 - AI receptionist for **salons and clinics** in Albania (based in Fier), works in **WhatsApp, 24/7, in Albanian**.
@@ -34,9 +34,11 @@ here. Example businesses in visuals must be clearly illustrative (e.g. "Parukeri
    `python3 tools/mira.py post media/DATE/post.json media/DATE/post.png`
    `python3 tools/mira.py reel media/DATE/reel.json media/DATE/reel.mp4`
    Look at the PNG and at 3–4 frames of the MP4 (ffmpeg -ss). Fix overflow, typos, wrong diacritics (ë, ç).
-5. Commit + push (`git -c push.negotiate=true push`). Public URLs:
-   `https://raw.githubusercontent.com/denisv23/mira-media/main/media/DATE/post.png` (and `reel.mp4`).
-   Check both return HTTP 200 before going on.
+5. Commit + push (`git -c push.negotiate=true push`). Public URLs (GitHub Pages, correct MIME types):
+   `https://denisv23.github.io/mira-media/media/DATE/post.png` and `.../media/DATE/reel.mp4`.
+   Pages rebuilds 1–3 min after a push. The workspace shell cannot reach github.io, so verify with
+   WebFetch on the PNG URL (retry every ~60 s, up to 6 tries). Fallback if Pages is down:
+   `https://raw.githubusercontent.com/denisv23/mira-media/main/media/DATE/<file>`.
 6. Send Denis the drafts **for approval** (he must say ok first — never publish without his yes in that session):
    SendUserMessage with both captions + SendUserFile with post.png and reel.mp4. Write in Albanian.
    Say: post goes out at **11:00**, reel at **19:00**, reply "ok" (or ask for changes).
