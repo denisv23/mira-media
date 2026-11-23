@@ -36,9 +36,10 @@ here. Example businesses in visuals must be clearly illustrative (e.g. "Parukeri
    Look at the PNG and at 3–4 frames of the MP4 (ffmpeg -ss). Fix overflow, typos, wrong diacritics (ë, ç).
 5. Commit + push (`git -c push.negotiate=true push`). Public URLs (GitHub Pages, correct MIME types):
    `https://denisv23.github.io/mira-media/media/DATE/post.png` and `.../media/DATE/reel.mp4`.
-   Pages rebuilds 1–3 min after a push. The workspace shell cannot reach github.io, so verify with
-   WebFetch on the PNG URL (retry every ~60 s, up to 6 tries). Fallback if Pages is down:
-   `https://raw.githubusercontent.com/denisv23/mira-media/main/media/DATE/<file>`.
+   Pages rebuilds 1–3 min after a push; the files are needed only at publish time (11:00 / 19:00), so
+   there is nothing to verify now (the workspace shell and WebFetch cannot reach github.io anyway).
+   At publish time, if Zapier says the media URL could not be fetched, wait 2 min and retry once, then
+   fall back to `https://raw.githubusercontent.com/denisv23/mira-media/main/media/DATE/<file>`.
 6. Send Denis the drafts **for approval** (he must say ok first — never publish without his yes in that session):
    SendUserMessage with both captions + SendUserFile with post.png and reel.mp4. Write in Albanian.
    Say: post goes out at **11:00**, reel at **19:00**, reply "ok" (or ask for changes).
