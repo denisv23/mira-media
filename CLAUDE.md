@@ -43,6 +43,8 @@ here. Example businesses in visuals must be clearly illustrative (e.g. "Parukeri
 6. Send Denis the drafts **for approval** (he must say ok first — never publish without his yes in that session):
    SendUserMessage with both captions + SendUserFile with post.png and reel.mp4. Write in Albanian.
    Say: post goes out at **11:00**, reel at **19:00**, reply "ok" (or ask for changes).
+   Then send a phone push notification (PushNotification tool, load it with ToolSearch) in Albanian,
+   e.g. "Mira: postimi dhe reel-i i sotëm janë gati — hyr dhe shkruaj ok". Also push when each item is published.
 7. When he approves: schedule the publishing with `send_later` into this same session — post at 11:00, reel at
    19:00 Europe/Tirane (if a time has already passed, publish that item right away). If he asks for changes,
    edit, re-render, push, resend. If he rejects, skip the day and log it.
