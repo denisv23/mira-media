@@ -1,0 +1,5 @@
+{"theme":"light","num":"04 / 07","headline":"Mira nuk\n*hamendëson.*","sub":"Përgjigjet vetëm nga lista jote. Çfarë nuk di, ta kalon ty.",
+ "blocks":[{"type":"spacer"},{"type":"list","title":"LISTA JOTE","rows":[["Prerje flokësh","700 L"],["Fon","500 L"],["Ngjyrosje","2 500 L"]]},
+ {"type":"chat","messages":[{"from":"client","text":"a beni keratine?"},{"from":"mira","text":"Për këtë do t'ju përgjigjet vetë Ana. Ia kalova mesazhin dhe ju shkruan së shpejti."}]},
+ {"type":"bar","text":"Klientja pyet për keratinë. Shkruaji vetë."}],
+ "footer":["Recepsionistja AI për sallone dhe klinika","Mira"]}
