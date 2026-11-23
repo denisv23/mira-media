@@ -27,6 +27,9 @@ here. Example businesses in visuals must be clearly illustrative (e.g. "Parukeri
 ## Daily run (scheduled task, ~07:40 Europe/Tirane)
 1. `add_repo denisv23/mira-media` with push access, clone to `/home/claude/mira-media`, read
    `content-log.md` — never repeat a headline/scenario from the last 30 entries.
+   Denis also posts by hand sometimes. Read the latest ~10 Instagram captions too, with Zapier Instagram for
+   Business "Make API GET Request" on `17841462171311044/media?fields=caption,timestamp,media_type&limit=10`,
+   and avoid repeating those topics. If that call fails, continue without it.
 2. Pick today's angle: one post idea + one different reel idea (see `ideas.md`; add new ones freely).
 3. Write `media/YYYY-MM-DD/post.json` and `reel.json` (format: `tools/SPEC.md`) and the two captions in
    `media/YYYY-MM-DD/captions.md`.
