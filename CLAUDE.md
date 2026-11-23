@@ -1,7 +1,7 @@
 # Mira — daily Instagram content (1 post + 1 reel)
 
 This repo holds the renderer and the published media for **@mira.recepsioniste** (Instagram, Business account
-linked to the Facebook Page "Mira • Recepsionistja AI"). Files here are public: they are served to Instagram
+linked to the Facebook Page "Mira • Recepsionistja AI"). Files here are public (drafts are pushed only after Denis approves): they are served to Instagram
 through GitHub Pages URLs (denisv23.github.io/mira-media/...). Never put anything private in this repo.
 
 ## What Mira is (only claim these facts)
@@ -37,20 +37,23 @@ here. Example businesses in visuals must be clearly illustrative (e.g. "Parukeri
    `python3 tools/mira.py post media/DATE/post.json media/DATE/post.png`
    `python3 tools/mira.py reel media/DATE/reel.json media/DATE/reel.mp4`
    Look at the PNG and at 3–4 frames of the MP4 (ffmpeg -ss). Fix overflow, typos, wrong diacritics (ë, ç).
-5. Commit + push (`git -c push.negotiate=true push`). Public URLs (GitHub Pages, correct MIME types):
-   `https://denisv23.github.io/mira-media/media/DATE/post.png` and `.../media/DATE/reel.mp4`.
-   Pages rebuilds 1–3 min after a push; the files are needed only at publish time (11:00 / 19:00), so
-   there is nothing to verify now (the workspace shell and WebFetch cannot reach github.io anyway).
-   At publish time, if Zapier says the media URL could not be fetched, wait 2 min and retry once, then
-   fall back to `https://raw.githubusercontent.com/denisv23/mira-media/main/media/DATE/<file>`.
+5. Do NOT commit or push the drafts yet — drafts stay in the workspace until Denis approves, so a rejected
+   draft never becomes public.
 6. Send Denis the drafts **for approval** (he must say ok first — never publish without his yes in that session):
    SendUserMessage with both captions + SendUserFile with post.png and reel.mp4. Write in Albanian.
    Say: post goes out at **11:00**, reel at **19:00**, reply "ok" (or ask for changes).
    Then send a phone push notification (PushNotification tool, load it with ToolSearch) in Albanian,
    e.g. "Mira: postimi dhe reel-i i sotëm janë gati — hyr dhe shkruaj ok". Also push when each item is published.
-7. When he approves: schedule the publishing with `send_later` into this same session — post at 11:00, reel at
-   19:00 Europe/Tirane (if a time has already passed, publish that item right away). If he asks for changes,
-   edit, re-render, push, resend. If he rejects, skip the day and log it.
+   If he asks for changes: edit, re-render, resend (still no push). If he rejects: delete the drafts, log
+   "skipped" in content-log.md (no media), commit, push, done.
+7. When he approves: right away commit + push `media/DATE/` (`git -c push.negotiate=true push`). Public URLs
+   (GitHub Pages, correct MIME types): `https://denisv23.github.io/mira-media/media/DATE/post.png` and
+   `.../media/DATE/reel.mp4`. Pages rebuilds 1–3 min after a push (the workspace shell and WebFetch cannot reach
+   github.io, so don't try to verify). Then schedule publishing with `send_later` into this same session —
+   post at 11:00, reel at 19:00 Europe/Tirane. If a time has already passed, wait 3 minutes after the push
+   (`sleep 180`) and publish that item now.
+   If Zapier says a media URL could not be fetched, wait 2 min and retry once, then fall back to
+   `https://raw.githubusercontent.com/denisv23/mira-media/main/media/DATE/<file>`.
 8. Publish with Zapier, Instagram for Business (default connection), account `instagramPageId`
    `17841462171311044` (Mira•Recepsionistja AI):
    - post → action `publish_media_v2`, params `media: [<post.png URL>]`, `caption`.
