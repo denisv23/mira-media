@@ -5,11 +5,11 @@
 - Mira nuk hamendëson: pyetje për shërbim jashtë listës → njoftim në Telegram (used 22 Nov)
 - Njihu me Mirën: përgjigjet / rezervon / kujton (used 22 Nov)
 - Ju punoni me klientët, Mira merret me mesazhet (used 23 Nov)
-- Kujtesa një ditë para → më pak klientë që s'vijnë
+- Kujtesa një ditë para → më pak klientë që s'vijnë (used 24 Nov)
 - E hënë 09:00: raporti javor në Telegram (shembull, me badge SHEMBULL)
 - Duart në flokë, telefoni bie: 3 mesazhe pa përgjigje gjatë një prerjeje
 - E diel në mëngjes: salloni mbyllur, rezervimi bëhet
-- Klinika dentare: pyetje për çmimin e pastrimit + orar i lirë
+- Klinika dentare: pyetje për çmimin e pastrimit + orar i lirë (used 24 Nov)
 - Klientja ndryshon orën: Mira gjen orë tjetër të lirë
 - "A keni vend sot?" → vetëm orët që janë vërtet të lira
 - Çmimet në një vend: lista që vendos ti = e vetmja e vërtetë

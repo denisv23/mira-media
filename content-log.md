@@ -6,3 +6,4 @@
 2026-11-22 | post: Mira nuk hamendëson | (published manually) | done
 2026-11-23 | reel: 23:40 – Salloni është mbyllur prej katër orësh | (published manually) | done
 2026-11-23 | reel: Ju punoni me klientët. Mira merret me mesazhet | (published manually) | done
+2026-11-24 | post: Kujtesa vjen një ditë para | reel: Klinika dentare – sa kushton pastrimi? | published
