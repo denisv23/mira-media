@@ -1,0 +1,18 @@
+{
+  "theme": "light",
+  "num": "06 / 07",
+  "headline": "Kujtesa vjen\n*një ditë para.*",
+  "sub": "Klienti e merr në WhatsApp. Ju nuk keni pse t'i shkruani vetë.",
+  "blocks": [
+    {"type": "chat", "messages": [
+      {"from": "mira", "text": "Përshëndetje! Ju kujtojmë takimin tuaj nesër, e mërkurë, në 10:00. Ju presim!", "time": "E martë · 10:00"},
+      {"from": "client", "text": "faleminderit, vij patjeter", "time": "10:04"}
+    ]},
+    {"type": "spacer"},
+    {"type": "cards", "items": [
+      {"icon": "bell", "title": "Një ditë para", "text": "Për çdo takim, pa e kujtuar ju."},
+      {"icon": "calendar", "title": "Nga kalendari", "text": "Mira e di kur e ka takimin secili klient."}
+    ]}
+  ],
+  "footer": ["Recepsionistja AI për sallone dhe klinika", "Ndiqna →"]
+}

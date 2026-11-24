@@ -1,0 +1,19 @@
+{
+  "theme": "dark",
+  "headline": "Klinika dentare.\n*Sa kushton pastrimi?*",
+  "sub": "Mira përgjigjet me çmimin që keni vendosur ju dhe gjen një orë të lirë.",
+  "blocks": [
+    {"type": "list", "title": "LISTA JUAJ · SHEMBULL", "rows": [["Pastrim dhëmbësh","3000 L"],["Vizitë kontrolli","1500 L"],["Mbushje","4000 L"]]},
+    {"type": "chat", "messages": [
+      {"from": "client", "text": "sa kushton pastrimi i dhembeve? keni vend kete jave", "time": "14:12"},
+      {"from": "mira", "text": "Pastrimi i dhëmbëve kushton 3000 L. Këtë javë kemi të lirë të enjten në 16:30 ose të premten në 11:00. Cila ju përshtatet?"},
+      {"from": "client", "text": "te premten ne 11"},
+      {"from": "booked", "text": "Pastrim dhëmbësh · E premte, 11:00"}
+    ]}
+  ],
+  "cta": {
+    "headline": "Çmimi i saktë dhe ora e lirë, në pak sekonda.",
+    "pill": "Provojeni falas për 14 ditë",
+    "note": "Më shkruani MIRA në DM"
+  }
+}
