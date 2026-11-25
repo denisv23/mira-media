@@ -31,6 +31,10 @@ here. Example businesses in visuals must be clearly illustrative (e.g. "Parukeri
    Business "Make API GET Request" on `17841462171311044/media?fields=caption,timestamp,media_type&limit=10`,
    and avoid repeating those topics. If that call fails, continue without it.
 2. Pick today's angle: one post idea + one different reel idea (see `ideas.md`; add new ones freely).
+   **Variety (Denis, 25 Nov: "po duken të përsëritshme")**: rotate through the formats in `ideas.md`
+   (A–F). The classic "client writes → Mira answers → U rezervua" chat is max 2 pieces per week; post and reel
+   of the same day must come from different formats; also vary the business (parukeri, berber, thonj, estetikë,
+   dentist, fizioterapi), the time of day and the main visual block (not chat every day).
 3. Write `media/YYYY-MM-DD/post.json` and `reel.json` (format: `tools/SPEC.md`) and the two captions in
    `media/YYYY-MM-DD/captions.md`.
 4. Render:

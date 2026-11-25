@@ -7,7 +7,7 @@
   "headline": "Mira nuk\n*hamendëson.*",   // \n = line break, *x* = accent colour
   "sub": "One short supporting line.",
   "blocks": [ ...see below... ],
-  "footer": ["Recepsionistja AI për sallone dhe klinika", "Ndiqna →"],   // post only
+  "footer": ["Recepsionistja AI për sallone dhe klinika", "Na ndiqni →"],   // post only
   "cta": {                                                               // reel only (red end card)
     "headline": "Kush përgjigjet i pari, e merr klientin.",
     "pill": "Provojeni falas për 14 ditë",

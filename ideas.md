@@ -17,3 +17,19 @@
 - Përpara/pas: mesazhe të humbura vs. mesazhe të përgjigjura
 - Pyetje e shpeshtë: "A duhet të ndryshoj numrin e WhatsApp-it?" (vetëm nëse Denis e konfirmon përgjigjen)
 - Kush përgjigjet i pari, e merr klientin
+
+## Formats to rotate (added 25 Nov — Denis finds the chat-every-day pieces repetitive)
+Pick a different format for post vs. reel, and don't use the same format two days in a row.
+
+A. Chat skenar (client → Mira → U rezervua) — max 2× në javë
+B. Ana e pronarit (Telegram, jo WhatsApp):
+   - E hënë 09:00: përmbledhja javore (stats + badge SHEMBULL)
+   - Një njoftim Telegram që kërkon vetëm ty (shërbim jashtë listës) — pa chat, vetëm `notif` + `bar`
+C. Si funksionon / fillimi:
+   - 3 hapa: lista e çmimeve → lidhim WhatsApp-in → 14 ditë falas (cards)
+   - "Lista jote = e vetmja e vërtetë": vetëm `list` + `quote`
+D. Statement / quote i madh (pa chat): "Klienti nuk pret deri nesër.", "Kush përgjigjet i pari, e merr klientin."
+E. Krahasim përpara/pas: mesazhe pa përgjigje në 22:00 vs. përgjigje në sekonda (cards ose stats SHEMBULL)
+F. Një ditë në sallon (timeline me `big` orë: 08:30 / 13:10 / 21:45 — çfarë bën Mira në secilën)
+G. Biznese të ndryshme: berber, thonj, estetikë, fizioterapi, klinikë dentare — i njëjti problem, tjetër sallon
+H. Gjuha reale: fjalë si "sa osht", "ne 9", "te shtunen" — si lojë "Mira e kupton?" (quote/cards, jo chat)
