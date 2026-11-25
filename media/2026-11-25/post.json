@@ -1,0 +1,39 @@
+{
+  "theme": "dark",
+  "num": "01 / 07",
+  "headline": "Si fillohet?\n*Tre hapa.*",
+  "sub": "Nga lista juaj e çmimeve te klienti i parë që merr përgjigje nga Mira.",
+  "blocks": [
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "list",
+          "title": "1 · Na dërgoni listën",
+          "text": "Shërbimet, çmimet, orari dhe adresa."
+        },
+        {
+          "icon": "send",
+          "title": "2 · Ne e lidhim",
+          "text": "Mira u përgjigjet klientëve në WhatsApp, ju merrni njoftimet në Telegram."
+        },
+        {
+          "icon": "check",
+          "title": "3 · 14 ditë falas",
+          "text": "E provoni me klientët tuaj, pa pagesë."
+        }
+      ]
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "quote",
+      "text": "Mira di vetëm atë që i jepni *ju*."
+    }
+  ],
+  "footer": [
+    "Recepsionistja AI për sallone dhe klinika",
+    "Na ndiqni →"
+  ]
+}

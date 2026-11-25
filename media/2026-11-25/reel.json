@@ -1,0 +1,57 @@
+{
+  "theme": "light",
+  "headline": "E hënë, 09:00.\n*Java juaj në Telegram.*",
+  "sub": "Çdo të hënë Mira ju dërgon përmbledhjen e javës që shkoi.",
+  "blocks": [
+    {
+      "type": "notif",
+      "app": "telegram",
+      "label": "Mira",
+      "text": "Përmbledhja e javës është gati.",
+      "when": "E hënë · 09:00"
+    },
+    {
+      "type": "stats",
+      "title": "JAVA E KALUAR",
+      "badge": "SHEMBULL",
+      "rows": [
+        [
+          "Rezervime nga Mira",
+          "12"
+        ],
+        [
+          "Kujtesa të dërguara",
+          "12"
+        ],
+        [
+          "Pyetje që presin ju",
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "chart",
+          "title": "Me kafen e mëngjesit",
+          "text": "E gjithë java në një mesazh."
+        },
+        {
+          "icon": "bell",
+          "title": "Gjatë javës",
+          "text": "Njoftim në Telegram kur diçka ka nevojë për ju."
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "text": "2 kliente pyetën për shërbime jashtë listës. Shkruajuni vetë."
+    }
+  ],
+  "cta": {
+    "headline": "Ju merreni me klientët. Mira mban shënim.",
+    "pill": "Provojeni falas për 14 ditë",
+    "note": "Më shkruani MIRA në DM"
+  }
+}
