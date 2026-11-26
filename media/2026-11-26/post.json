@@ -1,0 +1,34 @@
+{
+  "theme": "light",
+  "num": "02 / 07",
+  "headline": "Një ditë te berberi.\n*Mira, gjithë ditën.*",
+  "sub": "Shembull: tri orë nga një ditë e zakonshme në dyqan.",
+  "blocks": [
+    {
+      "type": "big",
+      "text": "08:30",
+      "side": "Hapni dyqanin. Pyetjet e natës kanë marrë përgjigje."
+    },
+    {
+      "type": "big",
+      "text": "13:10",
+      "side": "Gërshërët në dorë. Mira i thotë klientit çmimin."
+    },
+    {
+      "type": "big",
+      "text": "21:45",
+      "side": "Dyqani mbyllur. Mira e rezervon për nesër në 10:00."
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "quote",
+      "text": "Ju qethni. *Mira përgjigjet.*"
+    }
+  ],
+  "footer": [
+    "Recepsionistja AI për sallone dhe klinika",
+    "Na ndiqni →"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "theme": "dark",
+  "headline": "Manikyr në mes.\n*Telefoni bie.*",
+  "sub": "Duart janë te klientja. Mesazhet i merr Mira.",
+  "blocks": [
+    {
+      "type": "big",
+      "text": "14:20",
+      "side": "Salloni i thonjve. Duart te klientja, telefoni në tavolinë."
+    },
+    {
+      "type": "notif",
+      "app": "whatsapp",
+      "label": "3 mesazhe të reja",
+      "text": "“Sa kushton manikyri me xhel?”"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "list",
+          "title": "Çmimi",
+          "text": "Nga lista që keni vendosur ju."
+        },
+        {
+          "icon": "clock",
+          "title": "Orari dhe adresa",
+          "text": "Përgjigje në pak sekonda."
+        },
+        {
+          "icon": "calendar",
+          "title": "E premte, 17:00",
+          "text": "Rezervuar në një orë të lirë."
+        }
+      ]
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "quote",
+      "text": "Ju mbaroni manikyrin. *Mira mbaron mesazhet.*"
+    }
+  ],
+  "cta": {
+    "headline": "Duart te klientja. Mesazhet te Mira.",
+    "pill": "Provojeni falas për 14 ditë",
+    "note": "Më shkruani MIRA në DM"
+  }
+}
