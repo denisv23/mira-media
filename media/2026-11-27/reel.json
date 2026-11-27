@@ -1,0 +1,33 @@
+{
+  "theme": "light",
+  "headline": "“A keni vend sot?”\n*Vetëm orët e lira.*",
+  "sub": "Shembull: një qendër fizioterapie, e shtunë në mëngjes.",
+  "blocks": [
+    {
+      "type": "notif",
+      "app": "whatsapp",
+      "label": "Pacient i ri",
+      "text": "“Pershendetje, a keni vend sot per nje seance?”",
+      "when": "E shtunë · 08:05"
+    },
+    {
+      "type": "list",
+      "title": "KALENDARI I SOTËM · SHEMBULL",
+      "rows": [["09:00", "E zënë"], ["10:30", "E lirë"], ["12:00", "E zënë"], ["15:30", "E lirë"]]
+    },
+    {
+      "type": "cards",
+      "items": [
+        {"icon": "calendar", "title": "10:30 ose 15:30?", "text": "Mira ofron vetëm orët që janë vërtet të lira."}
+      ]
+    },
+    {"type": "bar", "text": "Rezervim i ri: sot 10:30 · seancë fizioterapie."},
+    {"type": "spacer"},
+    {"type": "quote", "text": "Asnjë orë e zënë *dy herë.*"}
+  ],
+  "cta": {
+    "headline": "Vetëm orë të lira, direkt në kalendar.",
+    "pill": "Provojeni falas për 14 ditë",
+    "note": "Më shkruani MIRA në DM"
+  }
+}

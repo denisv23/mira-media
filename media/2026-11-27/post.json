@@ -1,0 +1,25 @@
+{
+  "theme": "dark",
+  "num": "03 / 07",
+  "headline": "E premte, 21:50.\n*Kush i përgjigjet?*",
+  "sub": "Shembull: një qendër estetike, e mbyllur për sot.",
+  "blocks": [
+    {
+      "type": "notif",
+      "app": "whatsapp",
+      "label": "Kliente e re",
+      "text": "“Sa kushton pastrimi i fytyres? Keni vend neser?”",
+      "when": "E premte · 21:50"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {"icon": "clock", "title": "Pa Mirën", "text": "E shihni të shtunën në 09:00. Klientja ka pritur gjithë natën."},
+        {"icon": "check", "title": "Me Mirën", "text": "Në pak sekonda: çmimi nga lista juaj dhe orët e lira për nesër."}
+      ]
+    },
+    {"type": "spacer"},
+    {"type": "quote", "text": "Klienti nuk pret *deri nesër.*"}
+  ],
+  "footer": ["Recepsionistja AI për sallone dhe klinika", "Na ndiqni →"]
+}
