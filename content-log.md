@@ -10,3 +10,4 @@
 2026-11-25 | post: Si fillohet? Tre hapa. | reel: E hënë, 09:00. Java juaj në Telegram. | published
 2026-11-26 | post: Një ditë te berberi. Mira, gjithë ditën. | reel: Manikyr në mes. Telefoni bie. | published
 2026-11-27 | post: E premte, 21:50. Kush i përgjigjet? | reel: “A keni vend sot?” Vetëm orët e lira. | published
+2026-11-28 | post: Klientët shkruajnë kur kanë kohë ata. | reel: Ju jeni te pacienti. Telegrami ju mban në dijeni. | published
