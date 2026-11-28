@@ -1,0 +1,16 @@
+{
+  "theme": "light",
+  "num": "04 / 07",
+  "headline": "Klientët shkruajnë\n*kur kanë kohë ata.*",
+  "sub": "Jo kur jeni ju të lirë. Shembull: mesazhet e një dite në një parukeri.",
+  "blocks": [
+    {
+      "type": "list",
+      "title": "KUR SHKRUAJNË · SHEMBULL",
+      "rows": [["07:10", "Para punës"], ["12:45", "Pushimi i drekës"], ["17:30", "Në autobus"], ["22:15", "Fëmijët në gjumë"]]
+    },
+    {"type": "spacer"},
+    {"type": "quote", "text": "Mira përgjigjet *në secilën orë.*"}
+  ],
+  "footer": ["Recepsionistja AI për sallone dhe klinika", "Na ndiqni →"]
+}

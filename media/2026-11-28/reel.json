@@ -1,0 +1,36 @@
+{
+  "theme": "dark",
+  "headline": "Ju jeni te pacienti.\n*Telegrami ju mban në dijeni.*",
+  "sub": "Shembull: një klinikë dentare, një mëngjes i zakonshëm.",
+  "blocks": [
+    {
+      "type": "notif",
+      "app": "telegram",
+      "label": "Rezervim i ri",
+      "text": "Kontroll · e hënë 10:30 · rezervuar nga Mira në WhatsApp.",
+      "when": "E mërkurë · 09:40"
+    },
+    {
+      "type": "notif",
+      "app": "telegram",
+      "label": "Pyetje për ju",
+      "text": "“A beni aparat dhembesh?” Nuk është në listë.",
+      "when": "E mërkurë · 10:15"
+    },
+    {"type": "bar", "text": "Mira i tha pacientit që do t'i shkruani ju."},
+    {
+      "type": "cards",
+      "items": [
+        {"icon": "bell", "title": "Vetëm kur duhet", "text": "Mjeku punon. Njoftimi pret në Telegram."},
+        {"icon": "chart", "title": "Çdo të hënë", "text": "Përmbledhja e javës që shkoi."}
+      ]
+    },
+    {"type": "spacer"},
+    {"type": "quote", "text": "Ju punoni. *Asgjë nuk ju shpëton.*"}
+  ],
+  "cta": {
+    "headline": "Pacienti te ju. Njoftimet në Telegram.",
+    "pill": "Provojeni falas për 14 ditë",
+    "note": "Më shkruani MIRA në DM"
+  }
+}
